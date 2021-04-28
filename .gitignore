@@ -1,0 +1,12 @@
+
+/.env
+.envrc
+.gitlab-ci.yml
+
+### For development
+/.idea
+/composer.spoons.json
+/composer.spoons.lock
+/vendor/
+/web/
+/private/

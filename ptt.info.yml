@@ -1,0 +1,28 @@
+name: 'Profile Theme test'
+type: profile
+description: 'Install an example site that test of Drupal’s capabilities.'
+version: VERSION
+core: 8.x
+install:
+  - node
+  - block
+  - ckeditor
+  - config
+  - menu_link_content
+  - datetime
+  - block_content
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - toolbar
+  - field_ui
+  - file
+themes:
+  - seven
+  - pt_theme
+keep_english: true
