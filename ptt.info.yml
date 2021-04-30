@@ -5,24 +5,38 @@ version: VERSION
 core: 8.x
 install:
   - node
+  - history
   - block
+  - breakpoint
   - ckeditor
+  - color
   - config
+  - contextual
   - menu_link_content
   - datetime
   - block_content
+  - quickedit
   - editor
   - help
   - image
   - menu_ui
   - options
   - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
   - taxonomy
   - dblog
+  - search
+  - shortcut
   - toolbar
   - field_ui
   - file
+  - views
+  - views_ui
+  - tour
+  - automated_cron
 themes:
+  - purecss
   - seven
-  - pt_theme
 keep_english: true
