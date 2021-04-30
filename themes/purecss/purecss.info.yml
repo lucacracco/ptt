@@ -1,0 +1,27 @@
+name: PureCss Theme
+type: theme
+base theme: false
+description: "A base theme using PureCss."
+package: Custom
+version: VERSION
+core: 8.x
+
+libraries:
+  - purecss/base
+  - purecss/buttons
+  - purecss/form_responsive
+  - purecss/grid_base
+  - purecss/grid_responsive
+  - purecss/menu_responsive
+  - purecss/table
+  - purecss/drupal
+
+libraries-override:
+  system/admin:
+    css:
+      theme:
+        css/system.admin.css: false
+
+libraries-extend:
+  user/drupal.user.icons:
+    - purecss/user

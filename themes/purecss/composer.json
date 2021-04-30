@@ -1,0 +1,8 @@
+{
+  "name": "drupal/purecss",
+  "type": "drupal-theme",
+  "description": "A base theme using PureCss.",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

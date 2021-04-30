@@ -1,0 +1,63 @@
+base:
+  version: 2.0.5
+  css:
+    layout:
+      //unpkg.com/purecss@1.0.1/build/base-min.css: { type: external, minified: true }
+
+buttons:
+  version: 2.0.5
+  css:
+    layout:
+      //unpkg.com/purecss@2.0.5/build/buttons-min.css: { type: external, minified: true }
+
+form_responsive:
+  version: 2.0.5
+  css:
+    layout:
+      //unpkg.com/purecss@2.0.5/build/forms-min.css: { type: external, minified: true }
+
+form_not_responsive:
+  version: 2.0.5
+  css:
+    layout:
+      //unpkg.com/purecss@2.0.5/build/forms-nr-min.css: { type: external, minified: true }
+
+grid_base:
+  version: 2.0.5
+  css:
+    layout:
+      //unpkg.com/purecss@2.0.5/build/grids-min.css: { type: external, minified: true }
+
+grid_responsive:
+  version: 2.0.5
+  css:
+    layout:
+      //unpkg.com/purecss@2.0.5/build/grids-responsive-min.css: { type: external, minified: true }
+
+menu_responsive:
+  version: 2.0.5
+  css:
+    layout:
+      //unpkg.com/purecss@2.0.5/build/menus-min.css: { type: external, minified: true }
+
+table:
+  version: 2.0.5
+  css:
+    layout:
+      //unpkg.com/purecss@2.0.5/build/tables-min.css: { type: external, minified: true }
+
+drupal:
+  version: VERSION
+  css:
+    theme:
+      dist/css/purecss.css: { }
+  js:
+    dist/js/purecss.js: { }
+  dependencies:
+    - core/jquery
+
+user:
+  version: VERSION
+  css:
+    component:
+      dist/css/components/user.css: { weight: -10 }

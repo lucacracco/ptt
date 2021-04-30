@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements template_preprocess_HOOK() for input.
+ */
+function purecss_preprocess_input(&$variables) {
+  $type_api = $variables['element']['#type'];
+
+  if ($type_api == 'submit') {
+    $variables['attributes']['class'][] = 'pure-button';
+  }
+}
