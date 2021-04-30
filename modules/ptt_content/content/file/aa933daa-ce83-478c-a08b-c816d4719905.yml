@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: aa933daa-ce83-478c-a08b-c816d4719905
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: img_300x300_1x8bit_T03L03_GRAY_apples.png
+  uri:
+    -
+      value: 'public://2021-04/img_300x300_1x8bit_T03L03_GRAY_apples.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 44217
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619805093

@@ -1,0 +1,9 @@
+name: 'PTT: Content'
+description: Imports the content for the demo.
+type: module
+version: VERSION
+core: 8.x
+package: 'Custom'
+hidden: true
+dependencies:
+  - default_content
