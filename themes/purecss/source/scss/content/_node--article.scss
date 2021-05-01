@@ -1,0 +1,37 @@
+.node--type-article {
+  padding-bottom: 2em;
+
+  & > header {
+
+    .user {
+      float: right;
+      margin-left: 1em;
+
+      img {
+        width: 100%;
+        max-width: 50px;
+        height: 100%;
+        max-height: 50px;
+      }
+    }
+
+    .title {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+      color: #222;
+    }
+
+    .meta {
+      font-size: 90%;
+      margin: 0;
+      color: #999;
+    }
+  }
+
+  .field--name-body {
+    font-family: Georgia, "Cambria", serif;
+    line-height: 1.8em;
+    color: #444;
+  }
+
+}

@@ -71,35 +71,29 @@
  */
 #}
 {% set classes = [
-    'node',
-    'node--type-' ~ node.bundle|clean_class,
-    node.isPromoted() ? 'node--promoted',
-    node.isSticky() ? 'node--sticky',
-    not node.isPublished() ? 'node--unpublished',
-    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  'node',
+  'node--type-' ~ node.bundle|clean_class,
+  node.isPromoted() ? 'node--promoted',
+  node.isSticky() ? 'node--sticky',
+  not node.isPublished() ? 'node--unpublished',
+  view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
 ] %}
+
 <article{{ attributes.addClass(classes) }}>
+  <header>
 
-    {{ title_prefix }}
-    {% if label and not page %}
-        <h2{{ title_attributes }}>
-            <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-        </h2>
-    {% endif %}
-    {{ title_suffix }}
+    {{ author_picture }}
 
-    {% if display_submitted %}
-        <footer class="node__meta">
-            {{ author_picture }}
-            <div{{ author_attributes.addClass('node__submitted') }}>
-                {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-                {{ metadata }}
-            </div>
-        </footer>
-    {% endif %}
+    <h2 class="title">{{ label }}</h2>
 
-    <div{{ content_attributes.addClass('node__content') }}>
-        {{ content }}
-    </div>
+    <p class="meta">
+      {%- trans %}
+        By <a href="#" class="author">{{ author_name }}</a> under
+      {% endtrans -%}
 
+      {{ content.field_tags }}
+    </p>
+  </header>
+
+  {{ content.body }}
 </article>

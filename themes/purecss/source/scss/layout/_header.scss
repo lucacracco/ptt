@@ -1,0 +1,42 @@
+
+.brand-title,
+.brand-tagline {
+  margin: 0;
+}
+
+.brand-title {
+  text-transform: uppercase;
+}
+
+.brand-tagline {
+  font-weight: 300;
+  color: rgb(176, 202, 219);
+}
+
+.nav-main-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-main-item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+
+  a {
+    font-size: 85%;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid rgb(176, 202, 219);
+    background: transparent;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      border: 2px solid rgb(61, 146, 201);
+    }
+  }
+}
