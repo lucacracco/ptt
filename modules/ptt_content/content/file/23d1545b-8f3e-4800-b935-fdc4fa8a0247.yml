@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 23d1545b-8f3e-4800-b935-fdc4fa8a0247
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 60111.jpg
+  uri:
+    -
+      value: 'public://pictures/2021-05/60111.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 761702
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619887512

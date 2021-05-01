@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: bc1a5316-7a82-4974-ac47-ec2442bfe279
+  default_langcode: en
+  depends:
+    23d1545b-8f3e-4800-b935-fdc4fa8a0247: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: arthur_loduro
+  pass:
+    -
+      value: $S$EBtBEz49rVHvk1pZHa9EqQel8XwO7/d4PfOhZv2HXYe/29XvJIf0
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: user@example.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619887512
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: user@example.com
+  user_picture:
+    -
+      entity: 23d1545b-8f3e-4800-b935-fdc4fa8a0247
+      alt: ''
+      title: ''
+      width: 5315
+      height: 5315

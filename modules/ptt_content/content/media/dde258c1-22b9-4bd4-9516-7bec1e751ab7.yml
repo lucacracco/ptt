@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: dde258c1-22b9-4bd4-9516-7bec1e751ab7
+  bundle: image
+  default_langcode: en
+  depends:
+    d782d2cb-2040-4158-99db-b7bfb459443b: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: chocolate-brownie-umami.jpg
+  created:
+    -
+      value: 1619884698
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_media_image:
+    -
+      entity: d782d2cb-2040-4158-99db-b7bfb459443b
+      alt: Chocolate
+      title: ''
+      width: 768
+      height: 511

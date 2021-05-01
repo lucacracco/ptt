@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d782d2cb-2040-4158-99db-b7bfb459443b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: chocolate-brownie-umami.jpg
+  uri:
+    -
+      value: 'public://2021-05/chocolate-brownie-umami.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 30431
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619884799
