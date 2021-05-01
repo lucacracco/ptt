@@ -1,16 +1,17 @@
 langcode: en
-status: true
+status: false
 dependencies:
   config:
+    - core.entity_view_mode.user.full
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
     - user
-id: user.user.default
+id: user.user.full
 targetEntityType: user
 bundle: user
-mode: default
+mode: full
 content:
   user_picture:
     type: image
@@ -18,7 +19,7 @@ content:
     region: content
     settings:
       image_style: thumbnail
-      image_link: ''
+      image_link: content
     third_party_settings: {  }
     label: hidden
 hidden:

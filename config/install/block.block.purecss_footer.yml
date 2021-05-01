@@ -9,8 +9,8 @@ dependencies:
     - purecss
 id: purecss_footer
 theme: purecss
-region: footer_fifth
-weight: 0
+region: footer
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

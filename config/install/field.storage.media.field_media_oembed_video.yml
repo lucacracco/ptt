@@ -3,13 +3,14 @@ status: true
 dependencies:
   module:
     - media
-    - node
-id: node.field_image
-field_name: field_image
-entity_type: node
-type: entity_reference
+id: media.field_media_oembed_video
+field_name: field_media_oembed_video
+entity_type: media
+type: string
 settings:
-  target_type: media
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
 module: core
 locked: false
 cardinality: 1
