@@ -4,38 +4,33 @@ description: 'Install an example site that test of Drupal’s capabilities.'
 version: VERSION
 core: 8.x
 install:
-  - node
-  - history
-  - block
+  - block_content
   - breakpoint
   - ckeditor
-  - color
   - config
-  - contextual
-  - menu_link_content
   - datetime
-  - block_content
-  - quickedit
-  - editor
-  - help
-  - image
-  - menu_ui
-  - options
-  - path
-  - page_cache
-  - dynamic_page_cache
-  - big_pipe
-  - taxonomy
   - dblog
-  - search
-  - shortcut
-  - toolbar
+  - editor
+  - field
   - field_ui
   - file
+  - help
+  - image
+  - link
+  - media
+  - media_library
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - path
+  - system
+  - taxonomy
+  - text
+  - toolbar
+  - user
   - views
   - views_ui
-  - tour
-  - automated_cron
 themes:
   - purecss
   - seven
