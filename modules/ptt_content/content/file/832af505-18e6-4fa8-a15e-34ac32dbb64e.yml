@@ -12,7 +12,7 @@ default:
       value: jTwkOC98rr.txt
   uri:
     -
-      value: 'public://2021-05/jTwkOC98rr_0_3.txt'
+      value: 'public://2021-05/jTwkOC98rr.txt'
   filemime:
     -
       value: text/plain

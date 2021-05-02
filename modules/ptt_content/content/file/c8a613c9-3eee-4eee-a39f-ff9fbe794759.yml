@@ -12,13 +12,13 @@ default:
       value: avatar-1.png
   uri:
     -
-      value: 'public://pictures/2021-05/avatar-1.png'
+      value: 'public://pictures/2021-05/avatar-1_2.png'
   filemime:
     -
       value: image/png
   filesize:
     -
-      value: 1135
+      value: 7140
   status:
     -
       value: true

@@ -3,6 +3,8 @@ _meta:
   entity_type: user
   uuid: 580fe75d-dfcf-4abe-9de1-215fc2857092
   default_langcode: en
+  depends:
+    7e109a3f-5c90-409a-96fa-5c0eb0daa310: file
 default:
   preferred_langcode:
     -
@@ -12,7 +14,7 @@ default:
       value: stacleswutav
   pass:
     -
-      value: $S$E.0ZVFK./BJyNkpT5oqXB42U7Mitwv5HA9FKJat51YH.GMrhC3RI
+      value: $S$EEt3PbQ3Wmxv7Ucol3k4yfhK1WWuylwI.HRRxx10nT/sy57urMc7
       existing: ''
       pre_hashed: false
   mail:
@@ -33,3 +35,10 @@ default:
   login:
     -
       value: 0
+  user_picture:
+    -
+      entity: 7e109a3f-5c90-409a-96fa-5c0eb0daa310
+      alt: 'Abluo illum incassum neo nunc plaga quidne secundum sed.'
+      title: 'Consequat esca hos imputo iriure odio scisco virtus.'
+      width: 371
+      height: 395

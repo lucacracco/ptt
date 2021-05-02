@@ -12,7 +12,7 @@ default:
       value: vMQ3jJWTrR.txt
   uri:
     -
-      value: 'public://2021-05/vMQ3jJWTrR_0_3.txt'
+      value: 'public://2021-05/vMQ3jJWTrR.txt'
   filemime:
     -
       value: text/plain
