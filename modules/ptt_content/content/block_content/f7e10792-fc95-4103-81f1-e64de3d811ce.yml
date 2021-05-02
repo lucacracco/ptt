@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: f7e10792-fc95-4103-81f1-e64de3d811ce
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Colebat nitidis'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<p>Calidis librata ambitae. Sata terris regna rapidisque ad zonae. Colebat nitidis coeptis nova coercuit glomeravit. Coeperunt faecis origo terrarum. Diremit omnia proxima tellure. Secrevit fuerat calidis diremit. Formaeque deerat homini. Distinxit aliis congestaque quoque consistere ignea his imagine. Terra secuit peragebant sic habentem.</p>\r\n"
+      format: basic_html
+      summary: ''

@@ -1,0 +1,35 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 580fe75d-dfcf-4abe-9de1-215fc2857092
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: stacleswutav
+  pass:
+    -
+      value: $S$E.0ZVFK./BJyNkpT5oqXB42U7Mitwv5HA9FKJat51YH.GMrhC3RI
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: stacleswutav@example.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619736343
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0

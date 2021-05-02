@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 31b326b6-c3fc-46be-8d28-367842532015
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    c365e120-86df-466a-9096-95d7ba0420ee: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Aliquip Causa'
+  description:
+    -
+      value: 'Description of buphef.'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      target_uuid: c365e120-86df-466a-9096-95d7ba0420ee
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 44
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

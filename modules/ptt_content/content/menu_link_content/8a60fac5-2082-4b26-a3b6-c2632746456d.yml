@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 8a60fac5-2082-4b26-a3b6-c2632746456d
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    c365e120-86df-466a-9096-95d7ba0420ee: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Aliquip Causa'
+  description:
+    -
+      value: 'Description of chaprotre.'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: c365e120-86df-466a-9096-95d7ba0420ee
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

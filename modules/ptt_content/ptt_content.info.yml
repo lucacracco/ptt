@@ -7,3 +7,67 @@ package: 'Custom'
 hidden: true
 dependencies:
   - default_content
+
+default_content:
+  node:
+    - 0f5619e6-4611-4f00-b441-587388ffef8c
+    - 1ec8b867-2e44-4f14-9b60-47ac931f06d1
+    - 2a61c01a-f6ec-42b8-b2b8-9faae68a1893
+    - 408e23c5-4137-4a66-8c48-fdd7116ddc69
+    - 40fbc97a-8b9d-4402-ae33-adb45c9d3159
+    - 4670b762-9fe2-493c-bb8c-7a2e4ba03831
+    - 56185b58-5b05-4356-b292-ebb2b909b710
+    - 5ef4e8ea-7320-4149-a8a6-80e4e3f4cf9d
+    - 6a224376-5be1-4254-8bfe-0978dffee849
+    - 77b05afd-37ad-432a-bd34-fa35872a9997
+    - 77e5abf0-4df7-41af-a2e1-199abb0266a0
+    - 9a593fde-f6f3-4608-a340-1b622769934f
+    - c365e120-86df-466a-9096-95d7ba0420ee
+    - d84d44ac-b1f9-4ad1-8a5a-574ffe9e4a4e
+  taxonomy_term:
+    - 020b1bd8-ddda-4ad9-b6e5-ca8c8156f0eb
+    - 0e55ca92-799b-4266-829b-9597c19882e4
+    - 0f4f77f8-b4f0-47b5-aa76-4fe7642c8f03
+    - 13ecb721-4f98-4c81-a1e0-b88826aed630
+    - 24650e76-f3fb-40fb-8d10-93ed352a216a
+    - 65996ab3-f731-4dcc-b81b-751c122c86b5
+    - 7afeda7e-e3e7-4e2e-b0ac-2861a1c901f4
+    - 818bdab9-7590-4b40-93fa-bce1fc97f2ce
+    - 8496506b-2918-4f61-8e71-11994f2d8278
+    - b7b66c81-2330-4aa5-a745-82cb9580f7c0
+  file:
+    - 832af505-18e6-4fa8-a15e-34ac32dbb64e
+    - 2e1ad3f6-6944-4a67-bfdb-a4b9b17d0622
+    - 8dfa6def-8f8e-45b4-9939-b3dafb9ae1cd
+    - 04aebcb0-781d-42b3-af76-4557a8fef2d6
+    - e0efd256-8ac5-4d09-bdaa-a49728ede26c
+    - 1efdaf06-30ec-4144-a3d2-ef552b374b9b
+    - 21f31449-b008-45e5-a94a-144d2630dbc8
+  media:
+    - 0783df99-c939-4aa6-a090-fea7a579f771
+    - 124dc6be-e0d2-4a4f-acb2-c8aade7d026e
+    - 1cb98ddb-2710-4997-ac5f-1ae5ad36b3dc
+    - 81a10311-56bf-4653-b01b-1fdda00645f8
+    - abb1e8ba-c87b-4a13-8d97-d76367fc1b2f
+    - b767f177-5618-4e36-adae-8f6611c8f3a3
+    - f02403a3-b2d9-4ef4-a28e-0a2c23fa3ff1
+  menu_link_content:
+    - 12580bfd-47d9-4fc5-b0c1-94c042f661c8
+    - 31b326b6-c3fc-46be-8d28-367842532015
+    - 3a06722d-844c-4644-a855-705d5c6e0e27
+    - 84855364-0cbe-4917-976b-5c0025a46c0d
+    - 87a95333-c9c2-47bf-8520-9aaf1768653b
+    - 8a60fac5-2082-4b26-a3b6-c2632746456d
+    - 98ad8975-9b1e-4779-b658-720b67f1563d
+    - b2b5d39f-1817-4bb8-b7ca-9d646be237e5
+    - dc0fa9c4-2659-49af-b339-323b37f9690c
+    - eb13d554-0ac2-4165-8933-d00c246bc103
+  block_content:
+    - a7c4e51b-5eca-4a14-98cc-b57476649cd3
+    - f7e10792-fc95-4103-81f1-e64de3d811ce
+  user:
+    - 580fe75d-dfcf-4abe-9de1-215fc2857092
+    - f6af45c1-f5bb-4d92-b395-d89e9b33cb4b
+    - f5a9f554-d0ab-4c26-8f86-bf02b5830029
+    - 115a42b1-d1c5-43c8-8f17-d3ca3c10a44b
+

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2e1ad3f6-6944-4a67-bfdb-a4b9b17d0622
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vMQ3jJWTrR.txt
+  uri:
+    -
+      value: 'public://2021-05/vMQ3jJWTrR_0_3.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 790
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619944746

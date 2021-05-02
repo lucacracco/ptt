@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 3a06722d-844c-4644-a855-705d5c6e0e27
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    40fbc97a-8b9d-4402-ae33-adb45c9d3159: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Augue In Melior'
+  description:
+    -
+      value: 'Description of hospekelisla.'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 40fbc97a-8b9d-4402-ae33-adb45c9d3159
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -8
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

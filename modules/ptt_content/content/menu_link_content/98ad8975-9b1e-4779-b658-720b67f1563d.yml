@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 98ad8975-9b1e-4779-b658-720b67f1563d
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    5ef4e8ea-7320-4149-a8a6-80e4e3f4cf9d: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Utrum
+  description:
+    -
+      value: 'Description of joth.'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 5ef4e8ea-7320-4149-a8a6-80e4e3f4cf9d
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 23
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d84d44ac-b1f9-4ad1-8a5a-574ffe9e4a4e
+  bundle: article
+  default_langcode: en
+  depends:
+    115a42b1-d1c5-43c8-8f17-d3ca3c10a44b: user
+    b767f177-5618-4e36-adae-8f6611c8f3a3: media
+    818bdab9-7590-4b40-93fa-bce1fc97f2ce: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 115a42b1-d1c5-43c8-8f17-d3ca3c10a44b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 115a42b1-d1c5-43c8-8f17-d3ca3c10a44b
+  title:
+    -
+      value: 'Article - Ymo'
+  created:
+    -
+      value: 1619879897
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /node-10-article
+      langcode: en
+  body:
+    -
+      value: "Hos nostrud paulatim. Eros genitus ideo macto meus pertineo quis si. Commoveo euismod hendrerit hos loquor saepius tamen validus. Dolor iustum luctus macto metuo minim nibh nutus populus vereor. Damnum defui ex gemino illum pagus pertineo singularis.\r\n\r\nAccumsan ex iustum jugis lenis occuro quibus. Aptent camur ibidem ille immitto importunus neo singularis typicus uxor. Augue mos praesent. Abico aliquip caecus decet ibidem ille illum importunus nobis. Brevitas eligo gravis natu nunc occuro praemitto ratis volutpat vulputate.\r\n\r\nAbluo capto lenis meus nostrud populus. Abdo aptent commodo eu hendrerit huic persto praemitto turpis. Abluo olim pneum. Abico aliquam consequat. Augue commodo eu gemino illum importunus iusto uxor.\r\n\r\nAdipiscing diam nibh pecus praesent quae wisi. Consectetuer duis euismod venio. Consectetuer humo melior nisl occuro saepius turpis verto. Erat gemino tamen. Aliquam comis dolus nimis pneum probo qui sit volutpat. Aptent distineo iusto olim quae. At blandit interdico persto veniam. Facilisi facilisis iusto magna patria utrum ymo. Hendrerit utinam venio. Ad appellatio cui elit praesent sudo. Adipiscing amet dolor gravis huic macto ulciscor.\r\n\r\nCommodo distineo erat eu laoreet minim nunc olim quadrum vereor. Abdo abluo tincidunt. Gilvus immitto iusto letalis luptatum quae quibus suscipit. Capto huic inhibeo luctus neque nostrud oppeto. Acsi importunus luctus nulla quidne tego vereor voco wisi. Bene macto odio ullamcorper virtus voco vulpes. Abdo amet conventio pala sit suscipere suscipit tum velit verto. Ex feugiat haero ideo immitto melior suscipit ullamcorper.\r\n\r\nAdipiscing consectetuer neo pagus praemitto. Dolus iriure melior saepius torqueo. Appellatio facilisi jus odio praemitto quidem refero valetudo. Causa dolor ulciscor. Comis commoveo esse oppeto quis vindico. Antehabeo exputo humo iusto tum volutpat.\r\n\r\nLuctus patria scisco volutpat. Consequat conventio eum haero iaceo nibh qui tamen. Gemino jugis persto premo. Abigo camur comis consequat eu molior tincidunt vereor vulpes. Feugiat minim paratus.\r\n\r\nAcsi commoveo olim praesent refoveo tation. Ad dolor singularis. Abigo aptent camur lobortis. Dignissim eros gilvus ille luctus. Elit esse laoreet secundum ulciscor ullamcorper. Autem camur ea illum iriure mauris refoveo secundum ut veniam. Abigo abluo appellatio cogo damnum exputo nutus patria roto utinam.\r\n\r\nCausa esse tamen. Abdo illum usitas ymo. Abigo roto saluto. Ad brevitas eros. Abdo adipiscing dignissim neo obruo paulatim proprius refoveo tego.\r\n\r\nAppellatio dolor iaceo lobortis minim venio verto. Exerci ibidem importunus loquor lucidus luctus nimis persto similis vel. Aliquip dolore exerci ille paulatim sagaciter scisco validus vulputate. Defui genitus ideo meus secundum tum. Duis huic ibidem jugis. Abico in incassum metuo refoveo saepius uxor vereor. Accumsan acsi amet brevitas immitto jumentum pagus.\r\n\r\nCommodo luptatum quidne quis. Consectetuer secundum si. Aptent cui genitus gilvus hendrerit praemitto. Commoveo facilisi magna minim patria persto quibus refero te virtus.\r\n\r\nAbico euismod eum in olim oppeto pecus sit typicus. Ea facilisis hendrerit interdico metuo nulla proprius quis velit. Adipiscing laoreet nostrud pagus pecus populus typicus vicis.\r\n\r\n"
+      format: plain_text
+      summary: "Hos nostrud paulatim. Eros genitus ideo macto meus pertineo quis si. Commoveo euismod hendrerit hos loquor saepius tamen validus. Dolor iustum luctus macto metuo minim nibh nutus populus vereor. Damnum defui ex gemino illum pagus pertineo singularis.\r\n\r\nAccumsan ex iustum jugis lenis occuro quibus. Aptent camur ibidem ille immitto importunus neo singularis typicus uxor. Augue mos praesent. Abico aliquip caecus decet ibidem ille illum importunus nobis. Brevitas eligo gravis natu nunc occuro praemitto ratis volutpat vulputate.\r\n"
+  field_image:
+    -
+      entity: b767f177-5618-4e36-adae-8f6611c8f3a3
+  field_tags:
+    -
+      entity: 818bdab9-7590-4b40-93fa-bce1fc97f2ce

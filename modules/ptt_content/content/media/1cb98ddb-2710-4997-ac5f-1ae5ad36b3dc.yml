@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 1cb98ddb-2710-4997-ac5f-1ae5ad36b3dc
+  bundle: document
+  default_langcode: en
+  depends:
+    f5a9f554-d0ab-4c26-8f86-bf02b5830029: user
+    832af505-18e6-4fa8-a15e-34ac32dbb64e: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: f5a9f554-d0ab-4c26-8f86-bf02b5830029
+  name:
+    -
+      value: jTwkOC98rr.txt
+  created:
+    -
+      value: 1619445505
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_media_document:
+    -
+      entity: 832af505-18e6-4fa8-a15e-34ac32dbb64e
+      display: true
+      description: ''

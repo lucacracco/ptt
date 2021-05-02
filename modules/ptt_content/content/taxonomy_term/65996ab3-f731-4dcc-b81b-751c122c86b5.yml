@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: taxonomy_term
-  uuid: 433b2bf2-07dd-466f-ac3c-1079e0ad3c30
+  uuid: 65996ab3-f731-4dcc-b81b-751c122c86b5
   bundle: tags
   default_langcode: en
 default:
@@ -10,10 +10,14 @@ default:
       value: true
   name:
     -
-      value: 'Mexico City'
+      value: bre
+  description:
+    -
+      value: 'Description of bre (depth 1)'
+      format: ''
   weight:
     -
-      value: 0
+      value: 3
   parent:
     -
       target_id: 0

@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: abb1e8ba-c87b-4a13-8d97-d76367fc1b2f
+  bundle: image
+  default_langcode: en
+  depends:
+    f6af45c1-f5bb-4d92-b395-d89e9b33cb4b: user
+    e0efd256-8ac5-4d09-bdaa-a49728ede26c: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: f6af45c1-f5bb-4d92-b395-d89e9b33cb4b
+  name:
+    -
+      value: vegan-brownies-hero-umami.jpg
+  created:
+    -
+      value: 1619946298
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_media_image:
+    -
+      entity: e0efd256-8ac5-4d09-bdaa-a49728ede26c
+      alt: vegan-brownies-hero-umami
+      title: ''
+      width: 3000
+      height: 1571

@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: taxonomy_term
-  uuid: 910be770-9691-4e2b-bd19-7b85a7bf37bd
+  uuid: 020b1bd8-ddda-4ad9-b6e5-ca8c8156f0eb
   bundle: tags
   default_langcode: en
 default:
@@ -10,10 +10,14 @@ default:
       value: true
   name:
     -
-      value: Amsterdam
+      value: phedr
+  description:
+    -
+      value: 'Description of phedr (depth 1)'
+      format: ''
   weight:
     -
-      value: 0
+      value: 9
   parent:
     -
       target_id: 0

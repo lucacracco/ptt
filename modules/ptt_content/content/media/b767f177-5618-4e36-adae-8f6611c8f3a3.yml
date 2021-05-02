@@ -1,11 +1,12 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: dde258c1-22b9-4bd4-9516-7bec1e751ab7
+  uuid: b767f177-5618-4e36-adae-8f6611c8f3a3
   bundle: image
   default_langcode: en
   depends:
-    d782d2cb-2040-4158-99db-b7bfb459443b: file
+    580fe75d-dfcf-4abe-9de1-215fc2857092: user
+    04aebcb0-781d-42b3-af76-4557a8fef2d6: file
 default:
   revision_user:
     -
@@ -15,13 +16,13 @@ default:
       value: true
   uid:
     -
-      target_id: 1
+      entity: 580fe75d-dfcf-4abe-9de1-215fc2857092
   name:
     -
-      value: chocolate-brownie-umami.jpg
+      value: pizza-umami.jpg
   created:
     -
-      value: 1619884698
+      value: 1619447817
   revision_translation_affected:
     -
       value: true
@@ -31,8 +32,8 @@ default:
       langcode: en
   field_media_image:
     -
-      entity: d782d2cb-2040-4158-99db-b7bfb459443b
-      alt: Chocolate
+      entity: 04aebcb0-781d-42b3-af76-4557a8fef2d6
+      alt: pizza-umami
       title: ''
       width: 768
-      height: 511
+      height: 512

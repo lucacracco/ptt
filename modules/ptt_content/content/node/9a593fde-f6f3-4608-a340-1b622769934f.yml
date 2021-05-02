@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9a593fde-f6f3-4608-a340-1b622769934f
+  bundle: article
+  default_langcode: en
+  depends:
+    115a42b1-d1c5-43c8-8f17-d3ca3c10a44b: user
+    abb1e8ba-c87b-4a13-8d97-d76367fc1b2f: media
+    24650e76-f3fb-40fb-8d10-93ed352a216a: taxonomy_term
+    13ecb721-4f98-4c81-a1e0-b88826aed630: taxonomy_term
+    020b1bd8-ddda-4ad9-b6e5-ca8c8156f0eb: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 115a42b1-d1c5-43c8-8f17-d3ca3c10a44b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 115a42b1-d1c5-43c8-8f17-d3ca3c10a44b
+  title:
+    -
+      value: 'Article - Virtus'
+  created:
+    -
+      value: 1619418994
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /node-11-article
+      langcode: en
+  body:
+    -
+      value: "Adipiscing aliquip appellatio incassum iusto ludus occuro vicis. Abico ad augue comis fere importunus luctus luptatum secundum. Praemitto typicus utinam. Et fere torqueo. Abluo commoveo distineo duis lobortis melior tum ulciscor.\r\n\r\nAbluo camur commodo dolus humo voco. Cogo iustum magna probo voco. Causa facilisis hos huic plaga rusticus valetudo volutpat. Abdo dignissim importunus paulatim tum.\r\n\r\nCui dolus ideo nutus turpis. Capto ille incassum. Abluo commoveo premo si tation. Adipiscing jus lucidus pagus persto. Consequat illum inhibeo interdico oppeto praesent utrum.\r\n\r\nAliquip erat eum lobortis modo nostrud quia. Abico aliquam caecus esse haero magna metuo nibh validus. Commoveo jumentum melior odio pagus suscipere tamen velit. Cui defui eligo luptatum neo persto proprius tincidunt virtus.\r\n\r\nPersto ut virtus. Consectetuer eum immitto iriure lobortis paulatim pertineo valde ymo. Distineo feugiat ille incassum natu nisl nostrud qui refoveo. Ad aliquam appellatio commodo conventio te typicus valetudo vulputate. Esca ille tum. Mos paulatim ut venio vicis. Abico commodo dolor dolore lucidus nutus. Causa duis et incassum iustum nisl paratus populus praesent si. Enim neo usitas.\r\n\r\nDolore genitus modo. Acsi duis gilvus interdico minim neo scisco. Commodo haero natu nulla quidem usitas valetudo. Acsi defui diam mauris natu nobis nulla pecus virtus. Nimis proprius quae saluto similis. Abluo appellatio autem consequat dolore ideo imputo os populus. Abdo jus occuro vel.\r\n\r\nAmet commodo iriure jugis neque tum ullamcorper. Augue importunus occuro usitas utrum. Dolus ea facilisis mos. Ea gemino neque suscipere ullamcorper. Enim jus lenis macto molior pecus pertineo validus vicis. Aliquam feugiat molior pertineo populus rusticus scisco vindico. Iaceo jumentum luctus odio secundum vereor. Facilisi persto praesent zelus. Causa letalis meus rusticus saepius virtus.\r\n\r\nCogo nobis pneum quadrum ulciscor utrum. Abbas abdo aptent conventio genitus magna refoveo saluto tincidunt. Huic iustum praemitto tation. Camur defui nimis usitas. Aliquip consectetuer iaceo jumentum nibh obruo populus quia quibus typicus. Augue defui facilisis interdico loquor mauris odio qui tamen.\r\n\r\nCui ex in mauris mos saepius tego vereor virtus ymo. Abigo conventio utrum. Gemino paratus proprius valde. Dignissim ludus praesent. Aliquip appellatio dolore ludus nimis. Facilisi gilvus jugis magna metuo nostrud populus saluto zelus. Adipiscing defui diam genitus immitto interdico melior nostrud paratus pecus.\r\n\r\nImmitto iustum melior proprius saepius. Amet bene distineo mauris. Acsi augue autem blandit facilisis si tamen. Augue odio refero. Adipiscing defui singularis utinam. Dolor haero iriure nulla paratus pecus suscipit vulputate.\r\n\r\nAppellatio camur commodo feugiat iusto lobortis suscipere virtus. Abigo cui pala populus. Mauris os ut. Adipiscing laoreet mauris utinam. Esca imputo molior saluto sino utinam. Loquor odio premo. Ad dignissim metuo nimis nostrud plaga singularis. Capto causa dolus humo luctus mauris patria probo. Acsi ad bene magna minim turpis ulciscor usitas vulpes.\r\n\r\nCommodo haero obruo saepius valde vel. Ad diam exerci gravis nutus pecus si vicis. Aliquip dolor duis huic imputo persto sagaciter verto. Autem dolore eum facilisi importunus jumentum melior pecus sed ut. Autem loquor metuo minim saepius sudo te zelus. Eligo quidne wisi zelus.\r\n\r\n"
+      format: plain_text
+      summary: "Adipiscing aliquip appellatio incassum iusto ludus occuro vicis. Abico ad augue comis fere importunus luctus luptatum secundum. Praemitto typicus utinam. Et fere torqueo. Abluo commoveo distineo duis lobortis melior tum ulciscor.\r\n\r\nAbluo camur commodo dolus humo voco. Cogo iustum magna probo voco. Causa facilisis hos huic plaga rusticus valetudo volutpat. Abdo dignissim importunus paulatim tum.\r\n\r\n"
+  field_image:
+    -
+      entity: abb1e8ba-c87b-4a13-8d97-d76367fc1b2f
+  field_tags:
+    -
+      entity: 24650e76-f3fb-40fb-8d10-93ed352a216a
+    -
+      entity: 13ecb721-4f98-4c81-a1e0-b88826aed630
+    -
+      entity: 020b1bd8-ddda-4ad9-b6e5-ca8c8156f0eb

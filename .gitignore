@@ -1,6 +1,7 @@
 .env
 .envrc
 .gitlab-ci.yml
+composer.lock
 
 ### For development
 /.docker

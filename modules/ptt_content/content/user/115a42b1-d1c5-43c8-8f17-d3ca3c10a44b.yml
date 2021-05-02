@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 115a42b1-d1c5-43c8-8f17-d3ca3c10a44b
+  default_langcode: en
+  depends:
+    6e14693d-fd37-424a-bf08-31cf775d2e14: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: swuphiw
+  pass:
+    -
+      value: $S$ENQzcvDHA.h3Ss4Tn.aap3mFFEb.wxztwag/EylR2GsBF8IrI2n7
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: swuphiw@example.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619593686
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  user_picture:
+    -
+      entity: 6e14693d-fd37-424a-bf08-31cf775d2e14
+      alt: 'Amet eros humo nobis patria.'
+      title: 'Quadrum te ut. Plaga sudo suscipit.'
+      width: 573
+      height: 200

@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: d782d2cb-2040-4158-99db-b7bfb459443b
+  uuid: 21f31449-b008-45e5-a94a-144d2630dbc8
   default_langcode: en
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: chocolate-brownie-umami.jpg
+      value: vMQ3jJWTrR_450.txt
   uri:
     -
-      value: 'public://2021-05/chocolate-brownie-umami.jpg'
+      value: 'public://2021-05/vMQ3jJWTrR_450_3.txt'
   filemime:
     -
-      value: image/jpeg
+      value: text/plain
   filesize:
     -
-      value: 30431
+      value: 790
   status:
     -
       value: true
   created:
     -
-      value: 1619884799
+      value: 1619946418

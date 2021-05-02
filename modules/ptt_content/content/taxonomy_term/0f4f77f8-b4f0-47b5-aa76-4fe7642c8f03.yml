@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: taxonomy_term
-  uuid: f280d4ca-9684-46ef-b077-22f919752288
+  uuid: 0f4f77f8-b4f0-47b5-aa76-4fe7642c8f03
   bundle: tags
   default_langcode: en
 default:
@@ -10,10 +10,14 @@ default:
       value: true
   name:
     -
-      value: 'Cleveland, Ohio'
+      value: stedr
+  description:
+    -
+      value: 'Description of stedr (depth 1)'
+      format: ''
   weight:
     -
-      value: 0
+      value: 4
   parent:
     -
       target_id: 0

@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 87a95333-c9c2-47bf-8520-9aaf1768653b
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    408e23c5-4137-4a66-8c48-fdd7116ddc69: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Accumsan
+  description:
+    -
+      value: 'Description of shuk.'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 408e23c5-4137-4a66-8c48-fdd7116ddc69
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 43
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

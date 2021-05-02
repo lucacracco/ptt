@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0f5619e6-4611-4f00-b441-587388ffef8c
+  bundle: article
+  default_langcode: en
+  depends:
+    115a42b1-d1c5-43c8-8f17-d3ca3c10a44b: user
+    81a10311-56bf-4653-b01b-1fdda00645f8: media
+    b7b66c81-2330-4aa5-a745-82cb9580f7c0: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 115a42b1-d1c5-43c8-8f17-d3ca3c10a44b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 115a42b1-d1c5-43c8-8f17-d3ca3c10a44b
+  title:
+    -
+      value: 'Article - Blandit Hendrerit Minim Tum'
+  created:
+    -
+      value: 1619799501
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /node-12-article
+      langcode: en
+  body:
+    -
+      value: "Conventio occuro tation utrum. Conventio dolore facilisi importunus quis veniam. Accumsan brevitas ea erat mauris nostrud occuro pneum voco wisi. Aliquip causa commodo exerci molior pertineo saluto. Causa duis esca ille oppeto praesent torqueo vero volutpat. Exerci hos magna typicus. Dolor ex oppeto praesent saepius sed veniam. Abbas aliquip cogo exputo immitto iustum populus ymo.\r\n\r\nCapto refero sagaciter. Adipiscing loquor magna natu paratus roto. Luptatum neo utinam. Loquor suscipit typicus validus. Abico autem commodo dolus letalis luptatum quis tation. Iusto nimis roto te. Dolor dolore exputo patria qui refoveo tation verto wisi. Bene ludus obruo ulciscor vindico. Causa metuo saluto tation. Acsi augue exerci loquor macto nimis nisl singularis.\r\n\r\nBrevitas distineo et lobortis qui te uxor vulputate. Acsi gemino iustum minim nunc paulatim pertineo quae typicus utinam. Abbas vereor zelus. Antehabeo eligo molior nulla praemitto volutpat. Hendrerit nutus oppeto pagus singularis vicis ymo. Comis conventio magna minim probo qui sit tincidunt.\r\n\r\nEa populus praesent utinam. Bene exputo illum magna quis refero sagaciter turpis vereor ymo. Antehabeo bene interdico laoreet te. Antehabeo dolus mos praemitto praesent. Commodo dolore interdico neque vereor wisi.\r\n\r\nAdipiscing obruo praesent quidem. Iusto magna meus pneum venio verto. Abbas abdo cui huic ratis rusticus. Abbas ea huic letalis vindico. Dolor dolus eros eum. Abluo conventio ex paratus qui refoveo valde. Ille pala quidne. Abluo ea ex gilvus quadrum. Autem dignissim elit facilisi minim nulla refoveo ut zelus. Aliquip loquor lucidus plaga vel.\r\n\r\nAliquam importunus iusto magna persto praemitto. Abdo comis gemino sudo. Euismod quae quidne. Hendrerit immitto oppeto. Brevitas hendrerit ille illum nutus valde. Amet cui elit magna scisco tincidunt.\r\n\r\nAcsi humo immitto importunus luptatum macto pagus probo refero. Erat ideo ludus quibus. Brevitas lenis quae saepius. Hendrerit singularis valetudo veniam. Augue damnum decet hendrerit iustum lenis praemitto refoveo sagaciter vindico.\r\n\r\nAbdo bene consequat ille luctus paratus sit uxor valde vulputate. Accumsan inhibeo tego. Ex olim saepius sed valde. In nunc ratis suscipere tincidunt typicus voco. Abico consequat huic incassum jumentum mauris refoveo.\r\n\r\nConsequat duis enim hos interdico modo nimis quia vulpes. Iustum loquor natu. Accumsan consequat dolus incassum iustum melior pneum sit sudo. Abluo ad aliquip causa decet importunus inhibeo lenis lucidus valetudo. Abdo aliquam dolus esse nobis sagaciter.\r\n\r\nEros natu os suscipit te. Aliquip gemino suscipere. Ibidem probo ratis. Abdo enim exputo fere huic lobortis similis vulpes. Esse saepius similis vindico. Consectetuer enim imputo loquor molior oppeto utrum valde virtus wisi. Mos nobis nostrud praemitto quae tego. Abbas iriure usitas ut. Commodo dolore euismod immitto iustum ludus modo nostrud usitas ut. Aliquam blandit cui eu tum.\r\n\r\nCaecus duis eu iriure jus quidne validus. Abigo cogo tincidunt. Aptent brevitas consequat dolore dolus nunc. Iaceo lucidus neo volutpat vulputate. Commoveo cui defui metuo nutus proprius. Abbas aptent commoveo eros genitus iaceo iusto proprius quidne.\r\n\r\nEum iriure lobortis voco. Aptent ibidem mauris melior modo molior nostrud. Abigo causa refero tego. Abico commoveo distineo euismod jumentum quidem. Aliquam et incassum mauris. Augue bene causa esca illum laoreet quadrum quidne ratis tincidunt. Abico neque olim oppeto os pala saluto tation vulpes.\r\n\r\n"
+      format: plain_text
+      summary: "Conventio occuro tation utrum. Conventio dolore facilisi importunus quis veniam. Accumsan brevitas ea erat mauris nostrud occuro pneum voco wisi. Aliquip causa commodo exerci molior pertineo saluto. Causa duis esca ille oppeto praesent torqueo vero volutpat. Exerci hos magna typicus. Dolor ex oppeto praesent saepius sed veniam. Abbas aliquip cogo exputo immitto iustum populus ymo.\r\n\r\n"
+  field_image:
+    -
+      entity: 81a10311-56bf-4653-b01b-1fdda00645f8
+  field_tags:
+    -
+      entity: b7b66c81-2330-4aa5-a745-82cb9580f7c0

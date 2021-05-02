@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1ec8b867-2e44-4f14-9b60-47ac931f06d1
+  bundle: article
+  default_langcode: en
+  depends:
+    580fe75d-dfcf-4abe-9de1-215fc2857092: user
+    b767f177-5618-4e36-adae-8f6611c8f3a3: media
+    0f4f77f8-b4f0-47b5-aa76-4fe7642c8f03: taxonomy_term
+    b7b66c81-2330-4aa5-a745-82cb9580f7c0: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 580fe75d-dfcf-4abe-9de1-215fc2857092
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 580fe75d-dfcf-4abe-9de1-215fc2857092
+  title:
+    -
+      value: 'Article - Dolore Sit'
+  created:
+    -
+      value: 1619508404
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /node-9-article
+      langcode: en
+  body:
+    -
+      value: "Aliquam diam duis eum facilisis ille nutus pneum. Conventio iaceo occuro. Caecus damnum fere huic qui typicus ulciscor. Conventio enim praesent. Nibh nutus praesent probo saepius sino. Aptent cui dolus esse eu in os venio. Camur comis oppeto zelus. Luctus ludus olim validus.\r\n\r\nAd enim jus laoreet nimis probo proprius turpis ulciscor valde. Euismod fere melior pala persto tamen. Diam huic nutus pagus. Acsi neo populus quae vicis. Ad dolus immitto obruo singularis ulciscor. Enim lenis molior paratus. Dignissim eligo fere iusto modo praemitto te ulciscor valde. Commodo luctus scisco validus vulputate.\r\n\r\nAbico blandit iusto modo nisl probo tum uxor valde. Mauris natu nisl nobis occuro tamen tation torqueo. Bene eum exerci iriure magna melior natu paulatim voco.\r\n\r\nAliquip blandit camur commodo jus persto vel verto. Ad blandit metuo minim nibh occuro rusticus. Aptent in neo oppeto. Aliquam praemitto saepius turpis typicus. Antehabeo esse iaceo mauris. Dignissim distineo enim laoreet natu quia. Adipiscing at decet scisco similis. Abico diam dolus euismod fere interdico luctus metuo plaga tincidunt. Abdo aliquip autem exputo nisl plaga saepius.\r\n\r\nBlandit euismod immitto luctus pala scisco singularis ut vel volutpat. Cui damnum gilvus. Gemino tum velit. Aliquam dignissim huic iriure lenis modo zelus. Abdo dolore iriure. Acsi et genitus importunus melior os quidem. At blandit nulla. Capto ibidem os probo venio vereor. Immitto premo vereor.\r\n\r\nDuis pertineo te vero vulputate. Bene erat ideo iusto quidem rusticus te usitas. Quadrum rusticus tamen tum utinam. Ille iustum persto pertineo tum. Genitus magna quidne quis te. Luctus suscipere tincidunt voco. Molior sudo te turpis. Erat exputo jugis olim quia. Ludus oppeto patria plaga premo usitas volutpat.\r\n\r\nBene capto dignissim luctus proprius quae quibus sagaciter utrum. Commoveo consequat esse et euismod hendrerit ille iustum pala refoveo. Consectetuer hos inhibeo luctus. Capto facilisis genitus gilvus neque os patria sino sudo valetudo. Camur nulla quis. Consequat decet occuro. Hendrerit lucidus macto nulla pala suscipere. Interdico quae qui torqueo. Blandit dolore luctus magna mos paulatim pneum sed vindico.\r\n\r\nEnim iustum ludus nobis veniam. Abluo augue cui elit jus pagus populus praesent voco. Dolore eu fere gravis mauris nulla odio saepius te.\r\n\r\nBlandit dolus ludus. Abdo ex nutus quis sagaciter scisco. Appellatio distineo eros ideo immitto laoreet nobis zelus. Brevitas eligo et eum premo validus. Dolore jumentum lucidus obruo plaga vero.\r\n\r\nNostrud occuro ratis uxor. Neque obruo qui ut wisi. Commodo immitto patria praesent tego valde vel. Abdo metuo molior praesent saepius tincidunt. Abigo distineo meus nunc sino utinam ymo.\r\n\r\nMelior neque nunc roto. Caecus decet enim esse et os quia scisco turpis valetudo. Autem iaceo magna mauris suscipit typicus uxor voco. Acsi aptent exerci ludus ulciscor. Comis iusto iustum odio qui utinam. Appellatio populus saepius tego wisi. Abdo comis cui in iriure nostrud occuro. Abdo brevitas distineo interdico metuo occuro quidne.\r\n\r\nHos mos tation ut. Abdo facilisi interdico laoreet magna premo torqueo. Eros huic iustum lenis natu nobis sudo vulputate. Eum incassum laoreet valde. Feugiat interdico jumentum obruo tincidunt. Abico aliquam ex genitus gravis luptatum nostrud si tum ymo. Caecus decet ea melior nibh nutus sed.\r\n\r\n"
+      format: plain_text
+      summary: "Aliquam diam duis eum facilisis ille nutus pneum. Conventio iaceo occuro. Caecus damnum fere huic qui typicus ulciscor. Conventio enim praesent. Nibh nutus praesent probo saepius sino. Aptent cui dolus esse eu in os venio. Camur comis oppeto zelus. Luctus ludus olim validus.\r\n\r\nAd enim jus laoreet nimis probo proprius turpis ulciscor valde. Euismod fere melior pala persto tamen. Diam huic nutus pagus. Acsi neo populus quae vicis. Ad dolus immitto obruo singularis ulciscor. Enim lenis molior paratus. Dignissim eligo fere iusto modo praemitto te ulciscor valde. Commodo luctus scisco validus vulputate."
+  field_image:
+    -
+      entity: b767f177-5618-4e36-adae-8f6611c8f3a3
+  field_tags:
+    -
+      entity: 0f4f77f8-b4f0-47b5-aa76-4fe7642c8f03
+    -
+      entity: b7b66c81-2330-4aa5-a745-82cb9580f7c0

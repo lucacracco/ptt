@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 832af505-18e6-4fa8-a15e-34ac32dbb64e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: jTwkOC98rr.txt
+  uri:
+    -
+      value: 'public://2021-05/jTwkOC98rr_0_3.txt'
+  filemime:
+    -
+      value: text/plain
+  filesize:
+    -
+      value: 758
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619944746

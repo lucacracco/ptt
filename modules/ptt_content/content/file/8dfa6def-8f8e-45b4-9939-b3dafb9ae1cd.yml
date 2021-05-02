@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 23d1545b-8f3e-4800-b935-fdc4fa8a0247
+  uuid: 8dfa6def-8f8e-45b4-9939-b3dafb9ae1cd
   default_langcode: en
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: 60111.jpg
+      value: mediterranean-quiche-umami.jpg
   uri:
     -
-      value: 'public://pictures/2021-05/60111.jpg'
+      value: 'public://2021-05/mediterranean-quiche-umami_3.jpg'
   filemime:
     -
       value: image/jpeg
   filesize:
     -
-      value: 761702
+      value: 70160
   status:
     -
       value: true
   created:
     -
-      value: 1619887512
+      value: 1619946265

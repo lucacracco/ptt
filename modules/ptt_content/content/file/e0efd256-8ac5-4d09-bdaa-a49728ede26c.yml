@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e0efd256-8ac5-4d09-bdaa-a49728ede26c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vegan-brownies-hero-umami.jpg
+  uri:
+    -
+      value: 'public://2021-05/vegan-brownies-hero-umami_3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 261638
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619946304

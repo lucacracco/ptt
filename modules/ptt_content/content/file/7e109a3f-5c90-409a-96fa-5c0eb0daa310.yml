@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7e109a3f-5c90-409a-96fa-5c0eb0daa310
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: avatar-3.png
+  uri:
+    -
+      value: 'public://pictures/2021-05/avatar-3.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 7596
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619944239

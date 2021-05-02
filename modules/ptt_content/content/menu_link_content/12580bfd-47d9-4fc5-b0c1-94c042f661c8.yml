@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 12580bfd-47d9-4fc5-b0c1-94c042f661c8
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    9a593fde-f6f3-4608-a340-1b622769934f: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Virtus
+  description:
+    -
+      value: 'Description of phuuugi.'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      target_uuid: 9a593fde-f6f3-4608-a340-1b622769934f
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 23
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

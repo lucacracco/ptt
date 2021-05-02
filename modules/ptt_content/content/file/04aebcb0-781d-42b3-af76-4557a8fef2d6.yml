@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 04aebcb0-781d-42b3-af76-4557a8fef2d6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pizza-umami.jpg
+  uri:
+    -
+      value: 'public://2021-05/pizza-umami_3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 81301
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619946283

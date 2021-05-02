@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: f6af45c1-f5bb-4d92-b395-d89e9b33cb4b
+  default_langcode: en
+  depends:
+    c8a613c9-3eee-4eee-a39f-ff9fbe794759: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: thokuluw
+  pass:
+    -
+      value: $S$E8slatKIc1M87ai02F0AphKxisaLMLKl.r7pomX53UjS5h7GEpfm
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: thokuluw@example.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1619924363
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  user_picture:
+    -
+      entity: c8a613c9-3eee-4eee-a39f-ff9fbe794759
+      alt: 'Importunus iusto natu os pecus.'
+      title: 'At dolor duis fere macto minim neque quidem suscipere valde.'
+      width: 210
+      height: 318

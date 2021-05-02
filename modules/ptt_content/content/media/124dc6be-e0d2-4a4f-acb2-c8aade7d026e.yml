@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 124dc6be-e0d2-4a4f-acb2-c8aade7d026e
+  bundle: image
+  default_langcode: en
+  depends:
+    580fe75d-dfcf-4abe-9de1-215fc2857092: user
+    1efdaf06-30ec-4144-a3d2-ef552b374b9b: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 580fe75d-dfcf-4abe-9de1-215fc2857092
+  name:
+    -
+      value: vegan-chocolate-nut-brownies.jpg
+  created:
+    -
+      value: 1619946316
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_media_image:
+    -
+      entity: 1efdaf06-30ec-4144-a3d2-ef552b374b9b
+      alt: vegan-chocolate-nut-brownies
+      title: ''
+      width: 770
+      height: 512
