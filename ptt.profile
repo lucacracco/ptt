@@ -13,6 +13,6 @@ use Drupal\Core\Form\FormStateInterface;
  * Allows the profile to alter the site configuration form.
  */
 function ptt_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
-  $form['site_information']['site_name']['#default_value'] = 'Blog Personal';
-  $form['site_information']['site_name']['#value'] = 'Blog Personal';
+  $form['site_information']['site_name']['#default_value'] = 'Blog';
+  $form['site_information']['site_name']['#value'] = 'Blog';
 }
