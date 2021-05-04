@@ -24,23 +24,21 @@
 We call a macro which calls itself to render the full tree.
 @see https://twig.symfony.com/doc/1.x/tags/macro.html
 #}
-<div class="pure-menu pure-menu-horizontal">
-    {{ menus.menu_links(items, attributes, 0) }}
-</div>
+{{ menus.menu_links(items, attributes, 0) }}
 
 {% macro menu_links(items, attributes, menu_level) %}
-    {% import _self as menus %}
-    {% if items %}
-        <ul>
-            {% for item in items %}
-                {% set classes = ['pure-menu-item'] %}
-                <li{{ item.attributes.addClass(classes) }}>
-                    {{ link(item.title, item.url, { 'class':['pure-menu-link']}) }}
-                    {% if item.below %}
-                        {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
-                    {% endif %}
-                </li>
-            {% endfor %}
-        </ul>
-    {% endif %}
+  {% import _self as menus %}
+  {% if items %}
+    <ul class="menu--footer pure-menu pure-menu-horizontal">
+      {% for item in items %}
+        {% set classes = ['pure-menu-item'] %}
+        <li{{ item.attributes.addClass(classes) }}>
+          {{ link(item.title, item.url, { 'class':['pure-menu-link']}) }}
+          {% if item.below %}
+            {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 {% endmacro %}

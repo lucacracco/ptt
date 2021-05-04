@@ -5,10 +5,12 @@ dependencies:
     - system
   theme:
     - purecss
+_core:
+  default_config_hash: DOOFUpZ4r7dYTowHiykNl6SYwk8DAyTFHBbT_b0eRjk
 id: purecss_content
 theme: purecss
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: system_main_block
 settings:

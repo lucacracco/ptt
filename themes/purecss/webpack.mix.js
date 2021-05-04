@@ -1,4 +1,6 @@
 let mix = require('laravel-mix');
+require('laravel-mix-imagemin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 if (!mix.inProduction()) {
   mix.sourceMaps();
@@ -6,10 +8,41 @@ if (!mix.inProduction()) {
     devtool: 'inline-source-map'
   });
 }
+mix.options({
+  processCssUrls: false
+});
 
+// Fonts.
 mix
-  .js('source/scripts/purecss.js', 'dist/js');
+  .copyDirectory('source/fonts', 'dist/fonts');
 
+// Javascripts.
+mix
+  .js('source/scripts/purecss.js', 'dist/js')
+
+// Scss.
 mix
   .sass('source/scss/purecss.scss', 'dist/css/')
-  .sass('source/scss/components/user.scss', 'dist/css/components');
+  .sass('source/scss/user.scss', 'dist/css');
+
+// Minify all images, `optipng` with `optimizationLevel` 5, disabling
+// `jpegtran`, and adding `mozjpeg`.
+mix
+  .imagemin(
+    {
+      from: 'source/images',
+      to: 'dist/images'
+    },
+    {
+      optipng: {
+        optimizationLevel: 5
+      },
+      jpegtran: null,
+      plugins: [
+        require('imagemin-mozjpeg')({
+          quality: 100,
+          progressive: true,
+        }),
+      ],
+    }
+  );

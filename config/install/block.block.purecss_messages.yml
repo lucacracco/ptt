@@ -5,6 +5,8 @@ dependencies:
     - system
   theme:
     - purecss
+_core:
+  default_config_hash: jhhXYW_rb6LEH3wpwY4v1o2JrS3_IdrusfHeeFT7uWk
 id: purecss_messages
 theme: purecss
 region: highlighted

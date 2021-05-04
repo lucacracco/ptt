@@ -7,6 +7,8 @@ dependencies:
     - system
   theme:
     - purecss
+_core:
+  default_config_hash: GXEmaLd8_SNyt0pILc9mu_R1EH5Vpe0q75YXvV6x4Ao
 id: purecss_footer
 theme: purecss
 region: footer

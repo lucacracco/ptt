@@ -60,4 +60,4 @@ user:
   version: VERSION
   css:
     component:
-      dist/css/components/user.css: { weight: -10 }
+      dist/css/user.css: { weight: -10 }

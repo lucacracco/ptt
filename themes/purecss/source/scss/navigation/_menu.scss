@@ -1,0 +1,37 @@
+.menu--main--wrappper {
+  .nav-main-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+
+    a {
+      font-size: 85%;
+      margin-top: 1em;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #fff;
+      text-decoration: none;
+      border: 2px solid rgb(176, 202, 219);
+      background: transparent;
+
+      &:hover,
+      &:focus {
+        background: #024984;
+      }
+
+      &.is-active {
+        text-decoration: none;
+        background: rgb(176, 202, 219);
+        color: #fff;
+      }
+    }
+  }
+
+}
+
+.menu--footer {
+  a:hover {
+    text-decoration: none;
+    border-radius: 10px;
+  }
+}

@@ -5,10 +5,12 @@ dependencies:
     - help
   theme:
     - purecss
+_core:
+  default_config_hash: o8h57DR5z9JVL6DCTNWSyXJvnYCTvhlmdne2VkrKru4
 id: purecss_help
 theme: purecss
 region: content
-weight: -30
+weight: -4
 provider: null
 plugin: help_block
 settings:

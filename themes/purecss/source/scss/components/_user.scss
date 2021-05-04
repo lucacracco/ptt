@@ -1,0 +1,13 @@
+.user {
+  .field--name-user-picture img {
+    border-radius: 50px;
+  }
+}
+
+.username {
+  color: $primary;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

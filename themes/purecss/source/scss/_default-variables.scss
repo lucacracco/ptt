@@ -12,3 +12,34 @@ $warning: #f0ad4e;
 $danger: #d9534f;
 
 $sidebar: #3875a7;
+
+//== Typography
+@font-face {
+  font-family: 'BalsamiqSans Regular';
+  src: url("../fonts/BalsamiqSans-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BalsamiqSans Bold';
+  src: url("../fonts/BalsamiqSans-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BalsamiqSans Italic';
+  src: url("../fonts/BalsamiqSans-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BalsamiqSans BoldItalic';
+  src: url("../fonts/BalsamiqSans-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+$font-family-base: "BalsamiqSans Regular", Helvetica, Arial, sans-serif;

@@ -7,6 +7,8 @@ dependencies:
     - system
   theme:
     - purecss
+_core:
+  default_config_hash: CM3KugHYqLcICnzuWYIaiScr5CWUu0UdZp5I7LpQRpU
 id: purecss_main_menu
 theme: purecss
 region: primary_menu

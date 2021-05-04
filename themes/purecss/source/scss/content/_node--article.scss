@@ -26,10 +26,17 @@
       margin: 0;
       color: #999;
     }
+
+    .username {
+      color: $primary;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   .field--name-body {
-    font-family: Georgia, "Cambria", serif;
     line-height: 1.8em;
     color: #444;
   }

@@ -24,7 +24,7 @@
 We call a macro which calls itself to render the full tree.
 @see https://twig.symfony.com/doc/1.x/tags/macro.html
 #}
-<nav class="nav-main">
+<nav class="nav-main menu--main--wrappper">
     {{ menus.menu_links(items, attributes, 0) }}
 </nav>
 
@@ -32,7 +32,7 @@ We call a macro which calls itself to render the full tree.
     {% import _self as menus %}
     {% if items %}
         {% if menu_level == 0 %}
-            <ul{{ attributes.addClass('nav-list') }}>
+            <ul{{ attributes.addClass('nav-main-list') }}>
         {% else %}
             <ul>
         {% endif %}

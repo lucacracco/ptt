@@ -5,6 +5,8 @@ dependencies:
     - system
   theme:
     - purecss
+_core:
+  default_config_hash: 1e-zXx3t984KtQLIgEBX4JzqMsC9meKFGgR5t5b_w14
 id: purecss_branding
 theme: purecss
 region: header

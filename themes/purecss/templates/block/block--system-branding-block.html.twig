@@ -14,15 +14,25 @@
  */
 #}
 {% block content %}
+
+  <div class="pure-g">
     {% if site_logo %}
-        <a href="{{ path('<front>') }}" rel="home" class="site-logo">
-            <img src="{{ site_logo }}" alt="{{ 'Home'|t }}"/>
+      <div class="pure-u-1-2 pure-u-md-1">
+        <a href="{{ path('<front>') }}" rel="home" class="brand-logo">
+          <img width=75 height=75 src="{{ directory }}/dist/images/blogging.png"
+               alt="{{ 'Home'|t }}"/>
         </a>
+      </div>
     {% endif %}
     {% if site_name %}
+      <div class="pure-u-1-2 pure-u-md-1">
         <h1 class="brand-title">{{ site_name }}</h1>
+      </div>
     {% endif %}
     {% if site_slogan %}
+      <div class="pure-u-1">
         <h2 class="brand-tagline">{{ site_slogan }}</h2>
+      </div>
     {% endif %}
+  </div>
 {% endblock %}

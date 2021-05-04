@@ -1,0 +1,14 @@
+.block-system-powered-by-block {
+  font-size: 80%;
+  color: $gray;
+
+  a {
+    color: $gray;
+
+    &:hover,
+    &:focus {
+      background: none;
+    }
+  }
+
+}

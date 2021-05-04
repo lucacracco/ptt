@@ -5,6 +5,8 @@ dependencies:
     - system
   theme:
     - purecss
+_core:
+  default_config_hash: MdZWXRKdc3KUps8ugjV8riTpYhyVumdMUlzPrGuinho
 id: purecss_powered
 theme: purecss
 region: footer

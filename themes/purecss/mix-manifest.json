@@ -1,5 +1,10 @@
 {
     "/dist/js/purecss.js": "/dist/js/purecss.js",
-    "/dist/css/components/user.css": "/dist/css/components/user.css",
-    "/dist/css/purecss.css": "/dist/css/purecss.css"
+    "/dist/css/user.css": "/dist/css/user.css",
+    "/dist/css/purecss.css": "/dist/css/purecss.css",
+    "/dist/fonts/BalsamiqSans-Bold.ttf": "/dist/fonts/BalsamiqSans-Bold.ttf",
+    "/dist/fonts/BalsamiqSans-BoldItalic.ttf": "/dist/fonts/BalsamiqSans-BoldItalic.ttf",
+    "/dist/fonts/BalsamiqSans-Italic.ttf": "/dist/fonts/BalsamiqSans-Italic.ttf",
+    "/dist/fonts/BalsamiqSans-Regular.ttf": "/dist/fonts/BalsamiqSans-Regular.ttf",
+    "/dist/fonts/OFL.txt": "/dist/fonts/OFL.txt"
 }
