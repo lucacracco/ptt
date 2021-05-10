@@ -1,6 +1,5 @@
 let mix = require('laravel-mix');
 require('laravel-mix-imagemin');
-const CopyPlugin = require("copy-webpack-plugin");
 
 if (!mix.inProduction()) {
   mix.sourceMaps();
