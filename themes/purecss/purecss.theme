@@ -7,7 +7,10 @@ function purecss_preprocess_input(&$variables) {
   $type_api = $variables['element']['#type'];
 
   if ($type_api == 'submit') {
-    $variables['attributes']['class'][] = 'pure-button';
+    $variables['attributes']['class'][] = 'pure-button pure-button-primary';
+  }
+  if (in_array($type_api, ['input', 'textfield', 'password'])) {
+    $variables['attributes']['class'][] = 'pure-input-rounded';
   }
 }
 

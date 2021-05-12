@@ -1,7 +1,29 @@
 .node--type-article {
-  padding-bottom: 2em;
 
-  & > header {
+  > header {
+
+    .meta {
+      font-size: 90%;
+      margin: 0;
+      color: #999;
+    }
+
+    .username {
+      color: $primary;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  > .field--name-body {
+    line-height: 1.8em;
+    color: #444;
+  }
+
+  &.node--view-mode-teaser {
+    padding-bottom: 2em;
 
     .user {
       float: left;
@@ -21,24 +43,27 @@
       color: #222;
     }
 
-    .meta {
-      font-size: 90%;
-      margin: 0;
-      color: #999;
-    }
-
-    .username {
-      color: $primary;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
   }
 
-  .field--name-body {
-    line-height: 1.8em;
-    color: #444;
+  &.node--view-mode-full {
+    .meta {
+      float: right;
+      margin: 1rem;
+      padding: 1rem;
+      border: 1px solid darken($gray-lighter, 10%);
+      box-shadow: 10px -10px 3px 3px $gray-lighter;
+
+      .field--name-user-picture {
+        margin: 1em 0;
+        text-align: center;
+      }
+    }
+
+    .field--name-field-image {
+      float: left;
+      padding-right: 2em;
+      padding-bottom: 1em;
+    }
   }
 
 }

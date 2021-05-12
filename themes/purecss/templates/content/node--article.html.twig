@@ -79,26 +79,25 @@
   view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
 ] %}
 <article{{ attributes.addClass(classes) }}>
+  <header>
+    {% if label and not page %}
+      <h2{{ title_attributes }}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h2>
+    {% endif %}
 
-  {% if label and not page %}
-    <h2{{ title_attributes }}>
-      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-    </h2>
-  {% endif %}
+    <div class="meta">
+      {{ author_picture }}
+      {%- trans %}
+        By {{ author_name }}
+      {% endtrans -%}
+    </div>
+  </header>
 
-  <footer class="node__meta">
-    {{ author_picture }}
-    {%- trans %}
-      By {{ author_name }} under
-    {% endtrans -%}
+  {{ content.field_image }}
 
-    {{ content.field_tags }}
-  </footer>
+  {{ content.field_tags }}
 
-  <div{{ content_attributes.addClass('node__content') }}>
-    {{ content.field_image }}
-
-    {{ content|without('field_tags', 'field_image') }}
-  </div>
+  {{ content|without('field_tags', 'field_image') }}
 
 </article>

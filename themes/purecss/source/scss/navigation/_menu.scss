@@ -7,10 +7,10 @@
     a {
       font-size: 85%;
       margin-top: 1em;
+      text-decoration: none;
       letter-spacing: 0.05em;
       text-transform: uppercase;
       color: #fff;
-      text-decoration: none;
       border: 2px solid rgb(176, 202, 219);
       background: transparent;
 
@@ -21,8 +21,8 @@
 
       &.is-active {
         text-decoration: none;
-        background: rgb(176, 202, 219);
         color: #fff;
+        background: rgb(176, 202, 219);
       }
     }
   }
@@ -30,6 +30,8 @@
 }
 
 .menu--footer {
+  white-space: normal;
+
   a:hover {
     text-decoration: none;
     border-radius: 10px;

@@ -55,6 +55,8 @@ drupal:
     dist/js/purecss.js: { }
   dependencies:
     - core/jquery
+    - core/drupal
+    - core/drupalSettings
 
 user:
   version: VERSION
