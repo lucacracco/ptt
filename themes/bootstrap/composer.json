@@ -1,0 +1,8 @@
+{
+  "name": "drupal/bootstrap",
+  "type": "drupal-theme",
+  "description": "A base theme using Bootstrap.",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

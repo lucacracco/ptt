@@ -1,0 +1,32 @@
+name: Bootstrap Theme
+type: theme
+base theme: false
+description: "A base theme using Bootstrap5"
+package: Custom
+version: VERSION
+core: 8.x
+
+libraries:
+  - bootstrap/framework
+  - bootstrap/drupal
+
+regions:
+  content: 'Content'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  footer: 'Footer'
+  highlighted: 'Highlighted'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: 'Breadcrumb'
+
+libraries-override:
+  system/admin:
+    css:
+      theme:
+        css/system.admin.css: false
+
+libraries-extend:
+  user/drupal.user.icons:
+    - bootstrap/user

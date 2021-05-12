@@ -1,0 +1,22 @@
+framework:
+  version: 5.0.0
+  css:
+    layout: {}
+
+drupal:
+  version: VERSION
+  css:
+    theme:
+      dist/css/bootstrap.css: { }
+  js:
+    dist/js/bootstrap.js: { }
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+
+user:
+  version: VERSION
+  css:
+    component:
+      dist/css/user.css: { weight: -10 }
