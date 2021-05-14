@@ -17,6 +17,7 @@ mix
 
 // Javascripts.
 mix
+  .js('source/scripts/bootstrap-framework.js', 'dist/js')
   .js('source/scripts/bootstrap.js', 'dist/js')
 
 // Scss.
