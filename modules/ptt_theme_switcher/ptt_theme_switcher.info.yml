@@ -1,0 +1,7 @@
+name: 'PTT: Theme Switcher'
+description: Provides a block for switch theme.
+type: module
+version: VERSION
+core: 8.x
+package: 'Custom'
+hidden: true
