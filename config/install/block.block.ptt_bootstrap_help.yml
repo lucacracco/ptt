@@ -4,9 +4,9 @@ dependencies:
   module:
     - help
   theme:
-    - purecss
-id: purecss_help
-theme: purecss
+    - ptt_bootstrap
+id: ptt_bootstrap_help
+theme: ptt_bootstrap
 region: content
 weight: -4
 provider: null

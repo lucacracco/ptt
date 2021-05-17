@@ -32,6 +32,7 @@ install:
   - views
   - views_ui
 themes:
-  - purecss
+  - ptt_purecss
+  - ptt_bootstrap
   - seven
 keep_english: true

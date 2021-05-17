@@ -1,20 +1,13 @@
-name: PureCss Theme
+name: Bootstrap Theme
 type: theme
 base theme: false
-description: "A base theme using PureCss."
+description: "A base theme using Bootstrap5"
 package: Custom
 version: VERSION
 core: 8.x
 
 libraries:
-  - purecss/base
-  - purecss/buttons
-  - purecss/form_responsive
-  - purecss/grid_base
-  - purecss/grid_responsive
-  - purecss/menu_responsive
-  - purecss/table
-  - purecss/drupal
+  - ptt_bootstrap/drupal
 
 regions:
   content: 'Content'
@@ -35,4 +28,4 @@ libraries-override:
 
 libraries-extend:
   user/drupal.user.icons:
-    - purecss/user
+    - ptt_bootstrap/user

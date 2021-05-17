@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - purecss
-id: purecss_branding
-theme: purecss
+    - ptt_purecss
+id: ptt_purecss_branding
+theme: ptt_purecss
 region: header
 weight: 0
 provider: null

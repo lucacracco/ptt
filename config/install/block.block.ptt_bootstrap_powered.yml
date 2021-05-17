@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - purecss
-id: purecss_powered
-theme: purecss
+    - ptt_bootstrap
+id: ptt_bootstrap_powered
+theme: ptt_bootstrap
 region: footer
 weight: -5
 provider: null

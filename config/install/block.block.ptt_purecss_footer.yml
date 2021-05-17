@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - purecss
-id: purecss_footer
-theme: purecss
+    - ptt_purecss
+id: ptt_purecss_footer
+theme: ptt_purecss
 region: footer
 weight: -6
 provider: null

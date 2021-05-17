@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - purecss
-id: purecss_messages
-theme: purecss
+    - ptt_bootstrap
+id: ptt_bootstrap_messages
+theme: ptt_bootstrap
 region: highlighted
 weight: -6
 provider: null

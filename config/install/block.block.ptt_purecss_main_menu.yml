@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - purecss
-id: purecss_main_menu
-theme: purecss
+    - ptt_purecss
+id: ptt_purecss_main_menu
+theme: ptt_purecss
 region: primary_menu
 weight: 0
 provider: null

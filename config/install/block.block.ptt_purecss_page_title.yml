@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - purecss
-id: purecss_page_title
-theme: purecss
+    - ptt_purecss
+id: ptt_purecss_page_title
+theme: ptt_purecss
 region: content
 weight: -3
 provider: null

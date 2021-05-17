@@ -1,7 +1,7 @@
 {
-  "name": "drupal/purecss",
+  "name": "drupal/ptt_bootstrap",
   "type": "drupal-theme",
-  "description": "A base theme using PureCss.",
+  "description": "A base theme using Bootstrap.",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
   "prefer-stable": true
