@@ -4,9 +4,11 @@ namespace Drupal\ptt_theme_switcher\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Cache\Cache;
+use Drupal\Core\Form\FormBuilderInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\Session\AccountProxyInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Drupal\ptt_theme_switcher\Form\ThemeSwitcher as ThemeSwitcherForm;
 
 /**
  * Provides a 'ThemeSwitcher' block.
@@ -28,6 +30,13 @@ class ThemeSwitcher extends BlockBase implements ContainerFactoryPluginInterface
   protected $currentUser;
 
   /**
+   * Form Builder service.
+   *
+   * @var \Drupal\Core\Form\FormBuilderInterface
+   */
+  protected $formBuilder;
+
+  /**
    * ThemeSwitcher constructor.
    *
    * @param array $configuration
@@ -37,10 +46,14 @@ class ThemeSwitcher extends BlockBase implements ContainerFactoryPluginInterface
    * @param string $plugin_definition
    *   The plugin implementation definition.
    * @param \Drupal\Core\Session\AccountProxyInterface $current_user
+   *   The current user.
+   * @param \Drupal\Core\Form\FormBuilderInterface $form_builder
+   *   The form builder service.
    */
-  public function __construct(array $configuration, $plugin_id, $plugin_definition, AccountProxyInterface $current_user) {
+  public function __construct(array $configuration, $plugin_id, $plugin_definition, AccountProxyInterface $current_user, FormBuilderInterface $form_builder) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
     $this->currentUser = $current_user;
+    $this->formBuilder = $form_builder;
   }
 
   /**
@@ -51,7 +64,8 @@ class ThemeSwitcher extends BlockBase implements ContainerFactoryPluginInterface
       $configuration,
       $plugin_id,
       $plugin_definition,
-      $container->get('current_user')
+      $container->get('current_user'),
+      $container->get('form_builder')
     );
   }
 
@@ -59,9 +73,7 @@ class ThemeSwitcher extends BlockBase implements ContainerFactoryPluginInterface
    * {@inheritdoc}
    */
   public function build() {
-    $build = [];
-    // TODO: implement.
-    return $build;
+    return $this->formBuilder->getForm(ThemeSwitcherForm::class);
   }
 
   /**

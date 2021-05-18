@@ -3,6 +3,6 @@ services:
   # Theme switcher.
   ptt_theme_switcher.user_theme_switcher:
     class: Drupal\ptt_theme_switcher\Theme\ThemeSwitcherNegotiator
-    arguments: ['@current_user', '@request_stack']
+    arguments: [ '@current_user', '@user.data', '@request_stack' ]
     tags:
       - { name: theme_negotiator, priority: -42 }
