@@ -1,0 +1,19 @@
+uuid: ade72a20-f170-4fec-b9c9-5ef9d37a2674
+status: true
+dependencies:
+  module:
+    - ptt_theme_switcher
+  theme:
+    - ptt_purecss
+id: ptt_purecss_theme_switcher
+theme: ptt_purecss
+region: footer
+weight: 0
+provider: null
+plugin: ptt_theme_switcher_block
+settings:
+  id: ptt_theme_switcher_block
+  label: 'ThemeSwitcher Block'
+  provider: ptt_theme_switcher
+  label_display: '0'
+visibility: {  }

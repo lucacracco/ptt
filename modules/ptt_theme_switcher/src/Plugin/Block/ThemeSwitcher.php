@@ -73,7 +73,7 @@ class ThemeSwitcher extends BlockBase implements ContainerFactoryPluginInterface
    * {@inheritdoc}
    */
   public function build() {
-    return $this->formBuilder->getForm(ThemeSwitcherForm::class);
+    return [$this->formBuilder->getForm(ThemeSwitcherForm::class)];
   }
 
   /**

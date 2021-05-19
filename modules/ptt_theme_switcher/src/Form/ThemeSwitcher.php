@@ -65,14 +65,9 @@ class ThemeSwitcher extends FormBase {
    * @inheritDoc
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    $form['description'] = [
-      '#type' => 'item',
-      '#markup' => $this->t('This form can select the default theme to use.'),
-    ];
-
     $form['theme'] = [
       '#type' => 'select',
-      '#title' => $this->t('Favorite Theme'),
+      '#title' => $this->t('Theme'),
       '#options' => $this->switchThemeOptions(),
       '#default_value' => $this->themeManager->getActiveTheme()->getName(),
       '#empty_option' => $this->t('-select-'),

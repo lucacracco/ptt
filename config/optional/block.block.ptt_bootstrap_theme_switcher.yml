@@ -1,0 +1,19 @@
+uuid: 88bbf540-cb2e-4f16-ae38-4140b224f439
+status: true
+dependencies:
+  module:
+    - ptt_theme_switcher
+  theme:
+    - ptt_bootstrap
+id: ptt_bootstrap_theme_switcher
+theme: ptt_bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: ptt_theme_switcher_block
+settings:
+  id: ptt_theme_switcher_block
+  label: 'ThemeSwitcher Block'
+  provider: ptt_theme_switcher
+  label_display: '0'
+visibility: {  }
