@@ -1,0 +1,11 @@
+.taxonomy-term.vocabulary-tags {
+  &.view-mode-teaser {
+    font-size: 80%;
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: $success;
+  }
+}

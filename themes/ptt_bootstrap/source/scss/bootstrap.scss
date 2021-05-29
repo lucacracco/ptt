@@ -1,7 +1,7 @@
 // Option A: Include all of Bootstrap
 // Include any default variable overrides here (though functions won't be available)
-$body-bg: #000;
-$body-color: #111;
+$body-bg: #EEE;
+$body-color: #222;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -28,3 +28,12 @@ $body-color: #111;
 
 
 // Then add additional custom code here
+@import "layout/header";
+@import "layout/page";
+@import "layout/forms";
+@import "layout/views";
+@import "navigation/menu";
+@import "content/page-title";
+@import "content/node--article";
+@import "content/taxonomy-term--tags";
+@import "block/block_system_powered_by_drupal";

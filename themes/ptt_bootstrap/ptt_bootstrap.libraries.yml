@@ -11,6 +11,11 @@ drupal:
     - core/drupal
     - core/drupalSettings
 
+bootstrap-masonry:
+  version: 4.2.2
+  js:
+    //cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js: { type: external, minified: true }
+
 user:
   version: VERSION
   css:

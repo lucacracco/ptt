@@ -1,0 +1,28 @@
+.ptt-theme-switcher {
+  font-size: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0.8rem 0 0 0;
+  color: #999;
+
+  & > * {
+    display: block;
+    margin: 0;
+  }
+
+  & > input {
+    margin: 0 1rem;
+  }
+
+  .description {
+    font-size: 90%;
+    margin-top: 0.2em;
+  }
+
+  .form-submit{
+    @extend .btn;
+    @extend .btn-primary;
+  }
+}

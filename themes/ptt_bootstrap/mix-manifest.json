@@ -2,10 +2,10 @@
     "/dist/js/bootstrap-framework.js": "/dist/js/bootstrap-framework.js",
     "/dist/js/bootstrap.js": "/dist/js/bootstrap.js",
     "/dist/css/user.css": "/dist/css/user.css",
-    "/dist/css/bootstrap.css": "/dist/css/bootstrap.css",
     "/dist/fonts/BalsamiqSans-Bold.ttf": "/dist/fonts/BalsamiqSans-Bold.ttf",
     "/dist/fonts/BalsamiqSans-BoldItalic.ttf": "/dist/fonts/BalsamiqSans-BoldItalic.ttf",
     "/dist/fonts/BalsamiqSans-Italic.ttf": "/dist/fonts/BalsamiqSans-Italic.ttf",
     "/dist/fonts/BalsamiqSans-Regular.ttf": "/dist/fonts/BalsamiqSans-Regular.ttf",
-    "/dist/fonts/OFL.txt": "/dist/fonts/OFL.txt"
+    "/dist/fonts/OFL.txt": "/dist/fonts/OFL.txt",
+    "/dist/css/bootstrap.css": "/dist/css/bootstrap.css"
 }

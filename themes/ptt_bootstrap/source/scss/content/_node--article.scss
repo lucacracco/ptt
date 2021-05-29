@@ -1,0 +1,74 @@
+.node--type-article {
+
+  > header {
+
+    .meta {
+      font-size: 90%;
+      margin: 0;
+      color: #999;
+    }
+
+    .username {
+      color: $primary;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  > .field--name-body {
+    line-height: 1.8em;
+    color: #444;
+  }
+
+  &.node--view-mode-teaser {
+    padding-bottom: 2em;
+
+    .user {
+      float: left;
+      margin-right: 1em;
+
+      img {
+        width: 100%;
+        max-width: 50px;
+        height: 100%;
+        max-height: 50px;
+      }
+    }
+
+    .link-title {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+      text-decoration: none;
+      color: #222;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+  &.node--view-mode-full {
+    .meta {
+      float: right;
+      margin: 1rem;
+      padding: 1rem;
+      border: 1px solid darken($gray-500, 10%);
+      box-shadow: 10px -10px 3px 3px $gray-500;
+
+      .field--name-user-picture {
+        margin: 1em 0;
+        text-align: center;
+      }
+    }
+
+    .field--name-field-image {
+      float: left;
+      padding-right: 2em;
+      padding-bottom: 1em;
+    }
+  }
+
+}

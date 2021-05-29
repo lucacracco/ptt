@@ -42,14 +42,21 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
+<div class="container">
 
-  <header role="banner">
-    {{ page.header }}
-  </header>
-
-  {{ page.primary_menu }}
-  {{ page.secondary_menu }}
+  <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">{{ page.header }}</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarPrimaryMenu"
+            aria-controls="navbarPrimaryMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarPrimaryMenu">
+       {{ page.primary_menu }}
+      {# {{ page.secondary_menu }} #}
+    </div>
+  </nav>
 
   {{ page.breadcrumb }}
 
